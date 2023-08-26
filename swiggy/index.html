@@ -1,0 +1,1857 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+        <title>swiggy clone</title>
+    <link rel="stylesheet" href="css_file.css">
+</head>
+
+<body>
+
+
+    <div class="w-full d-lg-flex   d-none      flex-column align-items-center mt-2  ">
+
+        <nav class=" justify-content-between d-flex col-6 p-4  " style="height: 10vh; width: 80vw;">
+
+            <div class="d-flex  w-full gap-1 justify-content-center align-items-center ">
+
+                <svg width="136" height="40" viewBox="0 0 136 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_4960_156852)">
+                        <path
+                            d="M14.2904 39.3417C14.2653 39.3243 14.2377 39.3004 14.2086 39.2753C13.7385 38.6978 10.8319 35.087 7.87018 30.4558C6.98184 28.9801 6.40499 27.8292 6.51576 27.5316C6.80551 26.7578 11.9688 26.3342 13.5589 27.0357C14.0424 27.2487 14.0302 27.5306 14.0302 27.6948C14.0302 28.4032 13.9949 30.3041 13.9949 30.3041C13.9952 30.6969 14.3172 31.0154 14.7138 31.0148C15.111 31.0148 15.4317 30.6949 15.4304 30.3012L15.4228 25.5646C15.4228 25.1535 14.9689 25.0509 14.8839 25.0348C14.0539 25.0299 12.3686 25.0248 10.5589 25.0248C6.56579 25.0248 5.67348 25.1874 4.99511 24.7475C3.5253 23.7945 1.12203 17.371 1.06598 13.757C0.986202 8.65847 4.03262 4.24445 8.32237 2.05741C10.1145 1.16257 12.1388 0.658203 14.2767 0.658203C21.0664 0.658203 26.6579 5.74011 27.4018 12.2784C27.4025 12.2834 27.4025 12.2908 27.4038 12.2958C27.5403 13.8764 18.7551 14.2123 17.0173 13.7524C16.7509 13.6818 16.6827 13.4114 16.6827 13.2949C16.6807 12.093 16.6727 8.71048 16.6727 8.71048C16.6713 8.31737 16.3493 7.99854 15.9528 7.99953C15.5569 8.00018 15.2348 8.31966 15.2348 8.71344L15.2499 14.9443C15.2624 15.3368 15.5944 15.4427 15.6853 15.4604C16.6736 15.4607 18.9846 15.4584 21.137 15.4584C24.0463 15.4584 25.2682 15.7927 26.0814 16.4066C26.622 16.8154 26.8313 17.5981 26.6484 18.6152C25.0171 27.6637 14.6787 38.8744 14.2904 39.3417ZM42.3247 18.2235C44.9327 19.332 46.5485 20.5617 46.5485 23.261C46.5485 26.0184 44.4422 27.7995 41.1832 27.7995C38.5422 27.7995 36.4224 26.6133 35.3666 24.5443L35.1958 24.2107L38.3008 22.4266L38.5043 22.7563C39.2034 23.8895 39.985 24.3726 41.1189 24.3726C42.0963 24.3726 42.7529 23.9432 42.7529 23.3035C42.7529 22.5947 42.2775 22.3291 40.8084 21.6914L40.0618 21.3738C38.0692 20.5316 36.2233 19.3614 36.2233 16.5271C36.2233 13.98 38.1921 12.2011 41.0114 12.2011C43.1474 12.2011 44.6113 13.021 45.619 14.7806L45.8059 15.1073L42.7974 17.0245L42.5902 16.6566C42.0872 15.7644 41.6135 15.5855 41.0116 15.5855C40.3823 15.5855 39.9769 15.9295 39.9769 16.4633C39.9769 17.0766 40.2755 17.3457 41.5772 17.905L42.3247 18.2235ZM64.3035 18.7454L66.4955 12.6843H70.2578L64.6819 28.0496H63.8463L60.464 20.8537C60.3067 20.524 60.1446 20.1145 60.0048 19.7394C59.8618 20.1152 59.6956 20.5256 59.5381 20.8553L56.0236 28.0496H55.1936L49.5283 12.6843H53.5474L55.7635 18.7454C55.905 19.132 56.05 19.6033 56.1768 20.0406C56.3274 19.5892 56.5085 19.102 56.6977 18.7092L59.6083 12.5578H60.4135L63.3693 18.7098C63.5577 19.1022 63.7395 19.5899 63.8895 20.0412C64.0169 19.6033 64.163 19.132 64.3035 18.7454ZM74.6454 27.6084V12.3704H78.4427V27.6084H74.6454ZM90.8932 22.4887V19.0834H97.9442V25.9128L97.7984 26.0319C96.9918 26.6886 94.8532 27.7997 91.9561 27.7997C87.0687 27.7997 83.6568 24.5883 83.6568 19.9901C83.6568 15.4771 86.9491 12.2012 91.4854 12.2012C93.98 12.2012 95.8085 12.8985 97.0742 14.3333L97.3214 14.6136L94.7331 17.1545L94.4519 16.8673C93.7291 16.1282 92.9802 15.6703 91.4853 15.6703C89.1617 15.6703 87.5387 17.4466 87.5387 19.9901C87.5387 22.6396 89.2718 24.3521 91.956 24.3521C92.8463 24.3521 93.7732 24.2001 94.4041 23.957V22.4889L90.8932 22.4887ZM110.136 22.4887V19.0834H117.187V25.9128L117.042 26.0319C116.234 26.6886 114.096 27.7997 111.2 27.7997C106.313 27.7997 102.9 24.5883 102.9 19.9901C102.9 15.4771 106.193 12.2012 110.728 12.2012C113.224 12.2012 115.052 12.8985 116.317 14.3333L116.565 14.6136L113.978 17.1545L113.696 16.8673C112.973 16.1282 112.223 15.6703 110.728 15.6703C108.405 15.6703 106.782 17.4466 106.782 19.9901C106.782 22.6396 108.516 24.3521 111.2 24.3521C112.09 24.3521 113.017 24.2001 113.647 23.957V22.4889L110.136 22.4887ZM131.101 12.3705H135.07L129.622 22.5104V27.6085H125.805V22.7268L120.001 12.3705H124.236L126.919 17.2289C127.207 17.7575 127.508 18.4561 127.736 19.0233C127.954 18.4607 128.241 17.7683 128.528 17.2336L131.101 12.3705Z"
+                            fill="#F15700"></path>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_4960_156852">
+                            <rect width="135.333" height="40" fill="white" transform="translate(0.400391)"></rect>
+                        </clipPath>
+                    </defs>
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:svgjs="http://svgjs.com/svgjs" width="20" height="40" x="0" y="0"
+                    viewBox="0 0 385.067 385.067" style="enable-background:new 0 0 512 512" xml:space="preserve"
+                    class="">
+                    <g>
+                        <path d="M181.867 0H203.2v385.067h-21.333z" fill="#bcbaba" data-original="#000000" opacity="1">
+                        </path>
+                    </g>
+                </svg>
+
+                <div class="d-flex  justify-content-center align-items-center gap-2">
+                    <svg width="18" height="18" viewBox="0 0 16 17" fill="#F15700" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M11.1828 1.84246C13.7623 0.516285 15.0521 -0.146802 15.6759 0.448004C16.2997 1.04281 15.6986 2.36264 14.4965 5.00231L11.0318 12.6101C9.78188 15.3547 9.15692 16.727 8.28744 16.6338C7.41796 16.5407 7.09629 15.0596 6.45294 12.0973C6.29606 11.375 6.21761 11.0138 5.97533 10.7649C5.73305 10.5161 5.37563 10.4285 4.6608 10.2532L4.29783 10.1642C1.65419 9.51589 0.332363 9.19175 0.234059 8.35677C0.135754 7.52179 1.34615 6.89952 3.76695 5.65497L11.1828 1.84246Z"
+                            fill="#F15700"></path>
+                    </svg>
+
+                    <h6>Setup your precise location</h6>
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns:svgjs="http://svgjs.com/svgjs" width="20" height="20" x="0" y="0" viewBox="0 0 24 24"
+                        style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                        <g>
+                            <path
+                                d="M12 16a1 1 0 0 1-.71-.29l-6-6a1 1 0 0 1 1.42-1.42l5.29 5.3 5.29-5.29a1 1 0 0 1 1.41 1.41l-6 6a1 1 0 0 1-.7.29z"
+                                data-name="16" fill="#f15700" data-original="#000000" opacity="1"></path>
+                        </g>
+                    </svg>
+                </div>
+
+            </div>
+
+            <div class="col-6  d-flex  justify-content-end align-items-center w-full gap-4 px-4 me-4">
+                <div class="w-100 d-flex justify-content-between align-items-center gap-3  p-2 pe-3 sarch_bar ">
+                    <button class="btn  disabled  w-100 d-flex justify-content-start "> Search for restaurant and
+                        food</button>
+                    <svg width="20" height="21" viewBox="0 0 20 21" fill="none" aria-hidden="true"
+                        strokeColor="rgba(2, 6, 12, 0.6)" fillColor="rgba(2, 6, 12, 0.6)">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M13.0998 8.84232C13.0998 11.7418 10.7493 14.0922 7.84989 14.0922C4.95046 14.0922 2.6 11.7418 2.6 8.84232C2.6 5.94289 4.95046 3.59243 7.84989 3.59243C10.7493 3.59243 13.0998 5.94289 13.0998 8.84232ZM12.1431 14.1802C10.9686 15.1261 9.47534 15.6922 7.84989 15.6922C4.0668 15.6922 1 12.6254 1 8.84232C1 5.05923 4.0668 1.99243 7.84989 1.99243C11.633 1.99243 14.6998 5.05923 14.6998 8.84232C14.6998 10.4974 14.1128 12.0153 13.1357 13.1993L18.319 17.9606C18.7226 18.3313 18.7359 18.9637 18.3483 19.3511C17.9634 19.7357 17.3365 19.7254 16.9645 19.3282L12.1431 14.1802Z"
+                            fill="rgba(2, 6, 12, 0.6)" fill-opacity="0.92"></path>
+                    </svg>
+                </div>
+
+                <svg viewBox="0 0 32 32" width="45" height="45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M12.6097 9.51178C14.1071 9.51178 15.3202 8.33063 15.3202 6.87364C15.3202 5.41747 14.1071 4.23633 12.6097 4.23633C11.1132 4.23633 9.89924 5.41747 9.89924 6.87364C9.89924 8.33063 11.1132 9.51178 12.6097 9.51178ZM6.63407 15.4005C7.41896 12.9149 9.79771 11.1071 12.6091 11.1071C15.422 11.1071 17.7998 12.9149 18.5842 15.4005C18.8042 16.0974 18.9142 16.4459 18.6422 16.8169C18.3702 17.188 17.9279 17.188 17.0434 17.188H8.17479C7.29023 17.188 6.84795 17.188 6.57597 16.8169C6.304 16.4458 6.41402 16.0974 6.63407 15.4005Z"
+                        fill="#43464A"></path>
+                    <path
+                        d="M32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16Z"
+                        fill="#43464A"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M16.36 14.2184C18.4089 14.2184 20.0688 12.6022 20.0688 10.6086C20.0688 8.61615 18.4089 7 16.36 7C14.3123 7 12.6513 8.61615 12.6513 10.6086C12.6513 12.6022 14.3123 14.2184 16.36 14.2184ZM8.18351 22.2763C9.25748 18.8752 12.5123 16.4017 16.3591 16.4017C20.208 16.4017 23.4615 18.8752 24.5349 22.2762C24.8359 23.2298 24.9863 23.7066 24.6142 24.2143C24.242 24.722 23.6369 24.722 22.4265 24.722H10.2917C9.08134 24.722 8.47617 24.722 8.10403 24.2143C7.73188 23.7065 7.88242 23.2297 8.18351 22.2763Z"
+                        fill="white"></path>
+                </svg>
+            </div>
+        </nav>
+
+
+
+
+        <div class="w-100">
+            <hr>
+        </div>
+
+    
+        <div class="w-100 d-flex justify-content-center align-items-center  menu_image">
+            <div class=" w-75   d-flex  gap-4 justify-content-between ">
+                <div class=" w-100 pb-4 mb-4 d-flex  align-items-center  justify-content-start  ">
+                    <div class="w-50  ">
+                        <h1>Order Food Online in Pune</h1>
+                        <svg width="128" height="10" viewBox="0 0 78 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 5.25939C27 -0.240624 53.5 -0.2406 77 4.25939" stroke="#F15700"
+                                stroke-width="1.5"></path>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class=" w-100  p-5 d-flex  justify-content-center align-items-center ">
+                    <img class="w-100"
+                        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1002,h_600/v1678428358/portal/m/seo_web/dweb_header.png"
+                        alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="mt-5" style=" width: 75vw;">
+
+            <div class="d-flex justify-content-between align-items-center ">
+                <h4>Top restaurant chains in Pune</h4>
+                <div class="d-flex justify-content-end  align-items-center gap-3 ">
+                    <div class=" rounded-circle bg-secondary p-2 d-flex justify-content-center align-items-center">
+                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" aria-hidden="true"
+                            strokecolor="rgba(2, 6, 12, 0.92)" fillcolor="rgba(2, 6, 12, 0.92)">
+                            <path
+                                d="M7.46869 3.43394C7.79171 3.13249 8.29794 3.14998 8.59939 3.473C8.90083 3.79602 8.88334 4.30225 8.56033 4.60369L5.0839 7.84795C4.94511 7.97748 4.82252 8.0921 4.71414 8.19502L15.0937 8.19502C15.5355 8.19502 15.8937 8.5532 15.8937 8.99502C15.8937 9.43685 15.5355 9.79502 15.0937 9.79502L4.6665 9.79502C4.78625 9.90939 4.92436 10.0386 5.08389 10.1875L8.51791 13.3922C8.84092 13.6937 8.8584 14.1999 8.55695 14.5229C8.2555 14.8459 7.74927 14.8634 7.42626 14.5619L3.95463 11.3221C3.54648 10.9413 3.18179 10.601 2.92647 10.2871C2.64873 9.94573 2.41671 9.53755 2.41672 9.01769C2.41672 8.49783 2.64874 8.08965 2.92648 7.74824C3.18181 7.43439 3.54649 7.09412 3.95465 6.7133L7.46869 3.43394Z"
+                                fill="rgba(2, 6, 12, 0.92)" fill-opacity="0.92"></path>
+                        </svg>
+                    </div>
+                    <div class=" rounded-circle bg-secondary p-2 d-flex justify-content-center align-items-center">
+                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" aria-hidden="true"
+                            strokecolor="rgba(2, 6, 12, 0.92)" fillcolor="rgba(2, 6, 12, 0.92)">
+                            <path
+                                d="M10.5164 3.43418C10.1934 3.13273 9.68714 3.15022 9.3857 3.47324C9.08425 3.79626 9.10174 4.30249 9.42476 4.60394L12.9012 7.84819C13.04 7.97772 13.1626 8.09234 13.2709 8.19527L2.89142 8.19527C2.44959 8.19527 2.09142 8.55344 2.09142 8.99527C2.09142 9.4371 2.44959 9.79527 2.89142 9.79527L13.3186 9.79527C13.1988 9.90964 13.0607 10.0388 12.9012 10.1877L9.46718 13.3924C9.14416 13.6939 9.12668 14.2001 9.42813 14.5231C9.72958 14.8462 10.2358 14.8636 10.5588 14.5622L14.0304 11.3224C14.4386 10.9415 14.8033 10.6012 15.0586 10.2874C15.3364 9.94598 15.5684 9.5378 15.5684 9.01793C15.5684 8.49807 15.3363 8.08989 15.0586 7.74849C14.8033 7.43463 14.4386 7.09437 14.0304 6.71354L10.5164 3.43418Z"
+                                fill="rgba(2, 6, 12, 0.92)" fill-opacity="0.92"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="w-full  px-2 mt-2  gap-5  d-flex  justify-content-center align-items-center  flex-nowrap">
+
+                <div class=" " style="width: 21vw;">
+                    <div class="rounded-3  card  p-0 m-0  ">
+                        <img class="img_cover card-img " style="height: 28vh; border-radius: 15px; "
+                            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/jmfk6nhytgaifkox7rcf"
+                            alt="">
+                        <div class="card-img-overlay text-white  d-flex justify-content-start  align-items-end">
+                            <p class="card-title p-0 m-0 fs-5 fw-bold"> GET 50 % OFF</p>
+                        </div>
+                    </div>
+                    <div class="px-3 pt-2">
+                        <h6> Pizza Hut</h6>
+                        <div class="d-flex ">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" role="img" aria-hidden="true"
+                                strokecolor="rgba(2, 6, 12, 0.92)" fillcolor="rgba(2, 6, 12, 0.92)">
+                                <circle cx="10" cy="10" r="9" fill="url(#StoreRating20_svg__paint0_linear_32982_71567)">
+                                </circle>
+                                <path
+                                    d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+                                    fill="white"></path>
+                                <defs>
+                                    <linearGradient id="StoreRating20_svg__paint0_linear_32982_71567" x1="10" y1="1"
+                                        x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#21973B"></stop>
+                                        <stop offset="1" stop-color="#128540"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <h6>3.6</h6>
+                        </div>
+                        <p>Pizzas <br> Aurangabad</p>
+                    </div>
+                </div>
+
+                <div class=" " style="width: 21vw;">
+                    <div class="rounded-3  card    ">
+                        <img class="img_cover card-img  img_cover   " style="height: 28vh; border-radius: 15px; "
+                            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/8a9029f512e2a7a37a8ed381322cec30"
+                            alt="">
+                        <div class="card-img-overlay text-white  d-flex justify-content-start  align-items-end">
+                            <p class="card-title p-0 m-0 fs-5 fw-bold"> GET 50 % OFF</p> 
+                        </div>
+                    </div>
+                    <div class="px-3 pt-2">
+                        <h6> Pizza Hut</h6>
+                        <div class="d-flex ">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" role="img" aria-hidden="true"
+                                strokecolor="rgba(2, 6, 12, 0.92)" fillcolor="rgba(2, 6, 12, 0.92)">
+                                <circle cx="10" cy="10" r="9" fill="url(#StoreRating20_svg__paint0_linear_32982_71567)">
+                                </circle>
+                                <path
+                                    d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+                                    fill="white"></path>
+                                <defs>
+                                    <linearGradient id="StoreRating20_svg__paint0_linear_32982_71567" x1="10" y1="1"
+                                        x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#21973B"></stop>
+                                        <stop offset="1" stop-color="#128540"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <h6>3.6</h6>
+                        </div>
+                        <p>Pizzas <br> Aurangabad</p>
+                    </div>
+                </div>
+
+                <div class=" " style="width: 21vw;">
+                    <div class="rounded-3  card    ">
+                        <img class=" card-img img_cover  img_cover   " style="height: 28vh; border-radius: 15px; "
+                            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/jmfk6nhytgaifkox7rcf"
+                            alt="">
+                        <div class="card-img-overlay text-white  d-flex justify-content-start  align-items-end">
+                            <p class="card-title p-0 m-0 fs-5 fw-bold"> GET 50 % OFF</p>
+                        </div>
+                    </div>
+                    <div class="px-3 pt-2">
+                        <h6> Pizza Hut</h6>
+                        <div class="d-flex ">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" role="img" aria-hidden="true"
+                                strokecolor="rgba(2, 6, 12, 0.92)" fillcolor="rgba(2, 6, 12, 0.92)">
+                                <circle cx="10" cy="10" r="9" fill="url(#StoreRating20_svg__paint0_linear_32982_71567)">
+                                </circle>
+                                <path
+                                    d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+                                    fill="white"></path>
+                                <defs>
+                                    <linearGradient id="StoreRating20_svg__paint0_linear_32982_71567" x1="10" y1="1"
+                                        x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#21973B"></stop>
+                                        <stop offset="1" stop-color="#128540"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <h6>3.6</h6>
+                        </div>
+                        <p>Pizzas <br> Aurangabad</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <hr>
+
+        </div>
+
+
+        <div class="mt-5" style=" width: 75vw;">
+
+
+            <div class="d-flex  flex-column align-items-start ">
+                <h4>Restaurants with online food delivery in Pune</h4>
+            </div>
+
+            <div class="w-full  px-2 mt-3   d-flex  justify-content-center gap-4 align-items-center  flex-nowrap">
+
+
+                <div class=" " style="width: 17vw;">
+                    <div class="rounded-3  card    ">
+                        <img class=" card-img  img_cover   " style="height: 25vh; border-radius: 15px; "
+                            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/2b4f62d606d1b2bfba9ba9e5386fabb7"
+                            alt="">
+                        <div class="card-img-overlay text-white  d-flex justify-content-start  align-items-end">
+                            <p class="card-title p-0 m-0 fs-5 fw-bold"> GET 50 % OFF</p>
+                        </div>
+                    </div>
+                    <div class="px-3 pt-2">
+                        <h6> Pizza Hut</h6>
+                        <div class="d-flex ">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" role="img" aria-hidden="true"
+                                strokecolor="rgba(2, 6, 12, 0.92)" fillcolor="rgba(2, 6, 12, 0.92)">
+                                <circle cx="10" cy="10" r="9" fill="url(#StoreRating20_svg__paint0_linear_32982_71567)">
+                                </circle>
+                                <path
+                                    d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+                                    fill="white"></path>
+                                <defs>
+                                    <linearGradient id="StoreRating20_svg__paint0_linear_32982_71567" x1="10" y1="1"
+                                        x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#21973B"></stop>
+                                        <stop offset="1" stop-color="#128540"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <h6>3.6</h6>
+                        </div>
+                        <p>Pizzas <br> Aurangabad</p>
+                    </div>
+                </div>
+
+
+                <div class=" " style="width: 17vw;">
+                    <div class="rounded-3  card    ">
+                        <img class=" card-img  img_cover   " style="height: 25vh; border-radius: 15px; "
+                            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/cjcat57kcqbckryknwcl"
+                            alt="">
+                        <div class="card-img-overlay text-white  d-flex justify-content-start  align-items-end">
+                            <p class="card-title p-0 m-0 fs-5 fw-bold"> GET 50 % OFF</p>
+                        </div>
+                    </div>
+                    <div class="px-3 pt-2">
+                        <h6> Pizza Hut</h6>
+                        <div class="d-flex ">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" role="img" aria-hidden="true"
+                                strokecolor="rgba(2, 6, 12, 0.92)" fillcolor="rgba(2, 6, 12, 0.92)">
+                                <circle cx="10" cy="10" r="9" fill="url(#StoreRating20_svg__paint0_linear_32982_71567)">
+                                </circle>
+                                <path
+                                    d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+                                    fill="white"></path>
+                                <defs>
+                                    <linearGradient id="StoreRating20_svg__paint0_linear_32982_71567" x1="10" y1="1"
+                                        x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#21973B"></stop>
+                                        <stop offset="1" stop-color="#128540"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <h6>3.6</h6>
+                        </div>
+                        <p>Pizzas <br> Aurangabad</p>
+                    </div>
+                </div>
+
+
+                <div class=" " style="width: 17vw;">
+                    <div class="rounded-3  card    ">
+                        <img class=" card-img  img_cover   " style="height: 25vh; border-radius: 15px; "
+                            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/537944eb7977193d7166fbe5484b2cad"
+                            alt="">
+                        <div class="card-img-overlay text-white  d-flex justify-content-start  align-items-end">
+                            <p class="card-title p-0 m-0 fs-5 fw-bold"> GET 50 % OFF</p>
+                        </div>
+                    </div>
+                    <div class="px-3 pt-2">
+                        <h6> Pizza Hut</h6>
+                        <div class="d-flex ">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" role="img" aria-hidden="true"
+                                strokecolor="rgba(2, 6, 12, 0.92)" fillcolor="rgba(2, 6, 12, 0.92)">
+                                <circle cx="10" cy="10" r="9" fill="url(#StoreRating20_svg__paint0_linear_32982_71567)">
+                                </circle>
+                                <path
+                                    d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+                                    fill="white"></path>
+                                <defs>
+                                    <linearGradient id="StoreRating20_svg__paint0_linear_32982_71567" x1="10" y1="1"
+                                        x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#21973B"></stop>
+                                        <stop offset="1" stop-color="#128540"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <h6>3.6</h6>
+                        </div>
+                        <p>Pizzas <br> Aurangabad</p>
+                    </div>
+                </div>
+
+
+                <div class=" " style="width: 17vw;">
+                    <div class="rounded-3  card    ">
+                        <img class=" card-img  img_cover   " style="height: 25vh; border-radius: 15px; "
+                            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/jmfk6nhytgaifkox7rcf"
+                            alt="">
+                        <div class="card-img-overlay text-white  d-flex justify-content-start  align-items-end">
+                            <p class="card-title p-0 m-0 fs-5 fw-bold"> GET 50 % OFF</p>
+                        </div>
+                    </div>
+                    <div class="px-3 pt-2">
+                        <h6> Pizza Hut</h6>
+                        <div class="d-flex ">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" role="img" aria-hidden="true"
+                                strokecolor="rgba(2, 6, 12, 0.92)" fillcolor="rgba(2, 6, 12, 0.92)">
+                                <circle cx="10" cy="10" r="9" fill="url(#StoreRating20_svg__paint0_linear_32982_71567)">
+                                </circle>
+                                <path
+                                    d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+                                    fill="white"></path>
+                                <defs>
+                                    <linearGradient id="StoreRating20_svg__paint0_linear_32982_71567" x1="10" y1="1"
+                                        x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#21973B"></stop>
+                                        <stop offset="1" stop-color="#128540"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <h6>3.6</h6>
+                        </div>
+                        <p>Pizzas <br> Aurangabad</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="w-full  px-2 mt-3   d-flex  justify-content-center gap-4 align-items-center  flex-nowrap">
+
+
+                <div class=" " style="width: 17vw;">
+                    <div class="rounded-3  card    ">
+                        <img class=" card-img  img_cover   " style="height: 25vh; border-radius: 15px; "
+                            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/2b4f62d606d1b2bfba9ba9e5386fabb7"
+                            alt="">
+                        <div class="card-img-overlay text-white  d-flex justify-content-start  align-items-end">
+                            <p class="card-title p-0 m-0 fs-5 fw-bold"> GET 50 % OFF</p>
+                        </div>
+                    </div>
+                    <div class="px-3 pt-2">
+                        <h6> Pizza Hut</h6>
+                        <div class="d-flex ">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" role="img" aria-hidden="true"
+                                strokecolor="rgba(2, 6, 12, 0.92)" fillcolor="rgba(2, 6, 12, 0.92)">
+                                <circle cx="10" cy="10" r="9" fill="url(#StoreRating20_svg__paint0_linear_32982_71567)">
+                                </circle>
+                                <path
+                                    d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+                                    fill="white"></path>
+                                <defs>
+                                    <linearGradient id="StoreRating20_svg__paint0_linear_32982_71567" x1="10" y1="1"
+                                        x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#21973B"></stop>
+                                        <stop offset="1" stop-color="#128540"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <h6>3.6</h6>
+                        </div>
+                        <p>Pizzas <br> Aurangabad</p>
+                    </div>
+                </div>
+
+
+                <div class=" " style="width: 17vw;">
+                    <div class="rounded-3  card    ">
+                        <img class=" card-img  img_cover   " style="height: 25vh; border-radius: 15px; "
+                            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/cjcat57kcqbckryknwcl"
+                            alt="">
+                        <div class="card-img-overlay text-white  d-flex justify-content-start  align-items-end">
+                            <p class="card-title p-0 m-0 fs-5 fw-bold"> GET 50 % OFF</p>
+                        </div>
+                    </div>
+                    <div class="px-3 pt-2">
+                        <h6> Pizza Hut</h6>
+                        <div class="d-flex ">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" role="img" aria-hidden="true"
+                                strokecolor="rgba(2, 6, 12, 0.92)" fillcolor="rgba(2, 6, 12, 0.92)">
+                                <circle cx="10" cy="10" r="9" fill="url(#StoreRating20_svg__paint0_linear_32982_71567)">
+                                </circle>
+                                <path
+                                    d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+                                    fill="white"></path>
+                                <defs>
+                                    <linearGradient id="StoreRating20_svg__paint0_linear_32982_71567" x1="10" y1="1"
+                                        x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#21973B"></stop>
+                                        <stop offset="1" stop-color="#128540"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <h6>3.6</h6>
+                        </div>
+                        <p>Pizzas <br> Aurangabad</p>
+                    </div>
+                </div>
+
+
+                <div class=" " style="width: 17vw;">
+                    <div class="rounded-3  card    ">
+                        <img class=" card-img  img_cover   " style="height: 25vh; border-radius: 15px; "
+                            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/537944eb7977193d7166fbe5484b2cad"
+                            alt="">
+                        <div class="card-img-overlay text-white  d-flex justify-content-start  align-items-end">
+                            <p class="card-title p-0 m-0 fs-5 fw-bold"> GET 50 % OFF</p>
+                        </div>
+                    </div>
+                    <div class="px-3 pt-2">
+                        <h6> Pizza Hut</h6>
+                        <div class="d-flex ">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" role="img" aria-hidden="true"
+                                strokecolor="rgba(2, 6, 12, 0.92)" fillcolor="rgba(2, 6, 12, 0.92)">
+                                <circle cx="10" cy="10" r="9" fill="url(#StoreRating20_svg__paint0_linear_32982_71567)">
+                                </circle>
+                                <path
+                                    d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+                                    fill="white"></path>
+                                <defs>
+                                    <linearGradient id="StoreRating20_svg__paint0_linear_32982_71567" x1="10" y1="1"
+                                        x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#21973B"></stop>
+                                        <stop offset="1" stop-color="#128540"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <h6>3.6</h6>
+                        </div>
+                        <p>Pizzas <br> Aurangabad</p>
+                    </div>
+                </div>
+
+
+                <div class=" " style="width: 17vw;">
+                    <div class="rounded-3  card    ">
+                        <img class=" card-img  img_cover   " style="height: 25vh; border-radius: 15px; "
+                            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/jmfk6nhytgaifkox7rcf"
+                            alt="">
+                        <div class="card-img-overlay text-white  d-flex justify-content-start  align-items-end">
+                            <p class="card-title p-0 m-0 fs-5 fw-bold"> GET 50 % OFF</p>
+                        </div>
+                    </div>
+                    <div class="px-3 pt-2">
+                        <h6> Pizza Hut</h6>
+                        <div class="d-flex ">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" role="img" aria-hidden="true"
+                                strokecolor="rgba(2, 6, 12, 0.92)" fillcolor="rgba(2, 6, 12, 0.92)">
+                                <circle cx="10" cy="10" r="9" fill="url(#StoreRating20_svg__paint0_linear_32982_71567)">
+                                </circle>
+                                <path
+                                    d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+                                    fill="white"></path>
+                                <defs>
+                                    <linearGradient id="StoreRating20_svg__paint0_linear_32982_71567" x1="10" y1="1"
+                                        x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#21973B"></stop>
+                                        <stop offset="1" stop-color="#128540"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <h6>3.6</h6>
+                        </div>
+                        <p>Pizzas <br> Aurangabad</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="w-full  px-2 mt-3   d-flex  justify-content-start gap-4 align-items-center  flex-nowrap">
+
+
+                <div class=" " style="width: 17vw;">
+                    <div class="rounded-3  card    ">
+                        <img class=" card-img  img_cover   " style="height: 25vh; border-radius: 15px; "
+                            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/2b4f62d606d1b2bfba9ba9e5386fabb7"
+                            alt="">
+                        <div class="card-img-overlay text-white  d-flex justify-content-start  align-items-end">
+                            <p class="card-title p-0 m-0 fs-5 fw-bold"> GET 50 % OFF</p>
+                        </div>
+                    </div>
+                    <div class="px-3 pt-2">
+                        <h6> Pizza Hut</h6>
+                        <div class="d-flex ">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" role="img" aria-hidden="true"
+                                strokecolor="rgba(2, 6, 12, 0.92)" fillcolor="rgba(2, 6, 12, 0.92)">
+                                <circle cx="10" cy="10" r="9" fill="url(#StoreRating20_svg__paint0_linear_32982_71567)">
+                                </circle>
+                                <path
+                                    d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+                                    fill="white"></path>
+                                <defs>
+                                    <linearGradient id="StoreRating20_svg__paint0_linear_32982_71567" x1="10" y1="1"
+                                        x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#21973B"></stop>
+                                        <stop offset="1" stop-color="#128540"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <h6>3.6</h6>
+                        </div>
+                        <p>Pizzas <br> Aurangabad</p>
+                    </div>
+                </div>
+
+
+                <div class=" " style="width: 17vw;">
+                    <div class="rounded-3  card    ">
+                        <img class=" card-img  img_cover   " style="height: 25vh; border-radius: 15px; "
+                            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/cjcat57kcqbckryknwcl"
+                            alt="">
+                        <div class="card-img-overlay text-white  d-flex justify-content-start  align-items-end">
+                            <p class="card-title p-0 m-0 fs-5 fw-bold"> GET 50 % OFF</p>
+                        </div>
+                    </div>
+                    <div class="px-3 pt-2">
+                        <h6> Pizza Hut</h6>
+                        <div class="d-flex ">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" role="img" aria-hidden="true"
+                                strokecolor="rgba(2, 6, 12, 0.92)" fillcolor="rgba(2, 6, 12, 0.92)">
+                                <circle cx="10" cy="10" r="9" fill="url(#StoreRating20_svg__paint0_linear_32982_71567)">
+                                </circle>
+                                <path
+                                    d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+                                    fill="white"></path>
+                                <defs>
+                                    <linearGradient id="StoreRating20_svg__paint0_linear_32982_71567" x1="10" y1="1"
+                                        x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#21973B"></stop>
+                                        <stop offset="1" stop-color="#128540"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <h6>3.6</h6>
+                        </div>
+                        <p>Pizzas <br> Aurangabad</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="w-full   mt-3     d-flex  justify-content-center align-items-center  ">
+
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">show more</h6>
+                </div>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="mt-3" style=" width: 85vw;">
+
+            <h5 class="py-3">Food culture in Pune </h5>
+
+            <div class=" border border-1   px-5 pt-4 " style="border-radius: 10px;">
+                <br>
+                <h5>
+                    Order Food Online in Pune from Swiggy
+                </h5>
+                <p>
+                    Welcome to the culinary paradise of Pune, where a vibrant food culture awaits to tantalize your
+                    taste buds. Known as the "Oxford of the East," Pune boasts a unique blend of delectable cuisines
+                    that reflect its rich heritage and diverse population.
+                </p>
+                <p>
+                    One cannot resist exploring the mouthwatering street food scene in Pune. The city offers a plethora
+                    of options, ranging from the iconic vada pav, which is a spicy potato fritter....
+                </p>
+                <p class="text-danger ">See more</p>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="mt-3" style=" width: 85vw;">
+            <h5 class="py-3">Explore localities in and around Pune </h5>
+            <div class=" row flex-nowrap d-flex gap-4  mt-3 mx-4 me-5">
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Thergaon</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Khadakwal</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Wakvad</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Varye Bk</h6>
+                </div>
+            </div>
+            <div class=" row flex-nowrap d-flex gap-4  mt-3 mx-4 me-5">
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Thergaon</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Khadakwal</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Wakvad</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Varye Bk</h6>
+                </div>
+            </div>
+            <div class=" row flex-nowrap d-flex gap-4  mt-3 mx-4 me-5">
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Thergaon</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Khadakwal</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Wakvad</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0"> Show more</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-3" style=" width: 85vw;">
+
+            <h5 class="py-3">What's Pune eating! People ordering in Pune </h5>
+
+            <div class=" row flex-nowrap d-flex gap-4  mt-3 mx-4 me-5">
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Thergaon</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Khadakwal</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Wakvad</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Varye Bk</h6>
+                </div>
+            </div>
+            <div class=" row flex-nowrap d-flex gap-4  mt-3 mx-4 me-5">
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Thergaon</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Khadakwal</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Wakvad</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Varye Bk</h6>
+                </div>
+            </div>
+            <div class=" row flex-nowrap d-flex gap-4  mt-3 mx-4 me-5">
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Thergaon</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Khadakwal</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Wakvad</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0"> Show more</h6>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="mt-3" style=" width: 85vw;">
+
+            <h5 class="py-3">Restaurant Chains in Pune</h5>
+
+            <div class=" row flex-nowrap d-flex gap-4  mt-3 mx-4 me-5">
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Thergaon</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Khadakwal</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Wakvad</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Varye Bk</h6>
+                </div>
+            </div>
+            <div class=" row flex-nowrap d-flex gap-4  mt-3 mx-4 me-5">
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Thergaon</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Khadakwal</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Wakvad</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Varye Bk</h6>
+                </div>
+            </div>
+            <div class=" row flex-nowrap d-flex gap-4  mt-3 mx-4 me-5">
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Thergaon</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Khadakwal</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Wakvad</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0"> Show more</h6>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="mt-3 mb-5 " style=" width: 85vw;">
+
+            <h5 class="py-3">More Food Options Near Me</h5>
+
+            <div class=" row flex-nowrap d-flex gap-4  mt-3 mx-4 me-5">
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Thergaon</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Khadakwal</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Wakvad</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Varye Bk</h6>
+                </div>
+            </div>
+            <div class=" row flex-nowrap d-flex gap-4  mt-3 mx-4 me-5">
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Thergaon</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Khadakwal</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Wakvad</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Varye Bk</h6>
+                </div>
+            </div>
+            <div class=" row flex-nowrap d-flex gap-4  mt-3 mx-4 me-5">
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Thergaon</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Khadakwal</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Wakvad</h6>
+                </div>
+                <div class="w-25  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0"> Show more</h6>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <div class="w-full mt-5 d-lg-flex   d-none flex-column align-items-center bg-secondary ">
+        <div class="py-3    d-flex justify-content-center align-items-center gap-4" style=" width: 75vw;">
+
+            <div class="w-50 px-5 ">
+                <h3>
+                    For better experience,download the Swiggy app now
+                </h3>
+            </div>
+            <img class="" style="width: 10vw; height: auto;"
+                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/play_store.png"
+                alt="">
+            <img class="" style="width: 10vw; height: auto;"
+                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/app_store.png"
+                alt="">
+        </div>
+    </div>
+
+
+    <div class="w-full  d-lg-flex   d-none    justify-content-center bg-dark text-white  ">
+        <div class="py-5 ps-5 ms-5    d-flex justify-content-center      row " style=" width: 75vw;">
+
+            <div class="col-3">
+
+                <div class="d-flex gap-2  ">
+                    <svg width="21" height="32" viewBox="0 0 21 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_b_674_19294)">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M20.3819 14.7977C20.5245 13.9563 20.3574 13.3121 19.9261 12.9756C19.2787 12.4711 18.3021 12.1959 15.9859 12.204C14.2724 12.2082 12.4327 12.2167 11.6469 12.2205C11.5739 12.2082 11.3093 12.1181 11.297 11.7938L11.2683 6.64781C11.2683 6.3236 11.5207 6.05694 11.8385 6.05694C12.1559 6.05694 12.412 6.31936 12.412 6.64358C12.412 6.64358 12.4285 9.43839 12.4327 10.4314C12.4327 10.5257 12.4897 10.7513 12.7011 10.8089C14.085 11.1822 21.0778 10.883 20.9639 9.57764C20.3536 4.16496 15.8884 -0.0164585 10.4829 4.87055e-05C8.78164 0.00385807 7.16965 0.426698 5.745 1.16952C2.33815 2.98744 -0.0755529 6.63977 0.00180748 10.8542C0.0546894 13.8374 1.98811 19.1396 3.16037 19.923C3.70173 20.2845 4.40996 20.1491 7.58886 20.1368C9.0298 20.1325 10.3732 20.1325 11.0324 20.1325C11.1016 20.1448 11.4599 20.2312 11.4637 20.5677L11.484 24.4782C11.484 24.8024 11.232 25.0691 10.9142 25.0691C10.5968 25.0691 10.3402 24.8109 10.3402 24.4824C10.3402 24.4824 10.3647 22.9108 10.3609 22.328C10.3609 22.1926 10.3689 21.9585 9.98235 21.7862C8.71622 21.2119 4.60532 21.5729 4.37737 22.2129C4.29191 22.4592 4.75185 23.4073 5.46418 24.6259C7.83331 28.4425 10.1571 31.4176 10.5318 31.8937C10.5563 31.9141 10.5766 31.9348 10.5968 31.9471C10.9104 31.5611 19.1078 22.2747 20.3819 14.7977Z"
+                                fill="white"></path>
+                        </g>
+                        <defs>
+                            <filter id="filter0_b_674_19294" x="-9.26002" y="-9.26002" width="39.4853" height="50.4673"
+                                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                <feGaussianBlur in="BackgroundImageFix" stdDeviation="4.63001"></feGaussianBlur>
+                                <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_674_19294">
+                                </feComposite>
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_674_19294"
+                                    result="shape"></feBlend>
+                            </filter>
+                        </defs>
+                    </svg>
+                    <div class="m-0 p-0 pt-2  ">
+                        <h6>Swiggy</h6>
+                    </div>
+                </div>
+
+                <div>
+                    <p>© 2023 Bundl Technologies Pvt. Ltd</p>
+                </div>
+
+
+            </div>
+
+
+            <div class="col-3">
+
+                <div class=" py-2">
+                    <h6>Company</h6>
+                </div>
+
+                <ul class="d-flex flex-column gap-3 list-unstyled">
+
+                    <li>
+                        <div>About</div>
+                    </li>
+                    <li>
+                        <div>Careers</div>
+                    </li>
+                    <li>
+                        <div>Team</div>
+                    </li>
+                    <li>
+                        <div>Swiggy One</div>
+                    </li>
+                    <li>
+                        <div>Swiggy Instamart</div>
+                    </li>
+                    <li>
+                        <div>Swiggy Genie</div>
+                    </li>
+                </ul>
+
+
+            </div>
+
+            <div class="col-3">
+
+                <div class=" py-2">
+                    <h6>Contact us</h6>
+                </div>
+
+
+                <ul class="d-flex flex-column gap-2 list-unstyled">
+                    <li>
+                        <div>Help &amp; Support</div>
+                    </li>
+                    <li>
+                        <div>Partner with us</div>
+                    </li>
+                    <li>
+                        <div>Ride with us</div>
+                    </li>
+                </ul>
+
+
+                <div class=" py-2">
+                    <h6>Legal </h6>
+                </div>
+
+                <ul class="d-flex flex-column gap-2 list-unstyled">
+        
+                    <li>
+                        <div>Terms &amp; Conditions</div>
+                    </li>
+                    <li>
+                        <div>Cookie Policy</div>
+
+                    </li>
+                    <li>
+                        <div>Privacy Policy</div>
+
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="col-3">
+
+                <div class=" py-2">
+                    <h6>We deliver to:</h6>
+                </div>
+
+                <ul class="d-flex flex-column gap-3 list-unstyled">
+
+                    <li>
+                        <div>Bangalore</div>
+                    </li>
+                    <li>
+                        <div>Gurgaon</div>
+                    </li>
+                    <li>
+                        <div>Hyderabad</div>
+                    </li>
+                    <li>
+                        <div>Delhi </div>
+                    </li>
+                    <li>
+                        <div>Mumbai </div>
+                    </li>
+                    <li>
+                        <div>Pune </div>
+                    </li>
+                </ul>
+                
+            </div>
+
+        </div>
+    </div>
+
+
+
+     <!-- mobile screen  -->
+    <div class="w-full d-sm-none   d-flex      flex-column justify-content-center mt-2  ">
+
+        <nav class=" w-full   ">
+            <div class="w-full d-flex justify-content-between  p-1 px-4 ">
+                <div class="d-flex justify-content-center align-items-center  ">
+                    <svg width="100" height="30" viewBox="0 0 136 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_4960_156852)">
+                            <path
+                                d="M14.2904 39.3417C14.2653 39.3243 14.2377 39.3004 14.2086 39.2753C13.7385 38.6978 10.8319 35.087 7.87018 30.4558C6.98184 28.9801 6.40499 27.8292 6.51576 27.5316C6.80551 26.7578 11.9688 26.3342 13.5589 27.0357C14.0424 27.2487 14.0302 27.5306 14.0302 27.6948C14.0302 28.4032 13.9949 30.3041 13.9949 30.3041C13.9952 30.6969 14.3172 31.0154 14.7138 31.0148C15.111 31.0148 15.4317 30.6949 15.4304 30.3012L15.4228 25.5646C15.4228 25.1535 14.9689 25.0509 14.8839 25.0348C14.0539 25.0299 12.3686 25.0248 10.5589 25.0248C6.56579 25.0248 5.67348 25.1874 4.99511 24.7475C3.5253 23.7945 1.12203 17.371 1.06598 13.757C0.986202 8.65847 4.03262 4.24445 8.32237 2.05741C10.1145 1.16257 12.1388 0.658203 14.2767 0.658203C21.0664 0.658203 26.6579 5.74011 27.4018 12.2784C27.4025 12.2834 27.4025 12.2908 27.4038 12.2958C27.5403 13.8764 18.7551 14.2123 17.0173 13.7524C16.7509 13.6818 16.6827 13.4114 16.6827 13.2949C16.6807 12.093 16.6727 8.71048 16.6727 8.71048C16.6713 8.31737 16.3493 7.99854 15.9528 7.99953C15.5569 8.00018 15.2348 8.31966 15.2348 8.71344L15.2499 14.9443C15.2624 15.3368 15.5944 15.4427 15.6853 15.4604C16.6736 15.4607 18.9846 15.4584 21.137 15.4584C24.0463 15.4584 25.2682 15.7927 26.0814 16.4066C26.622 16.8154 26.8313 17.5981 26.6484 18.6152C25.0171 27.6637 14.6787 38.8744 14.2904 39.3417ZM42.3247 18.2235C44.9327 19.332 46.5485 20.5617 46.5485 23.261C46.5485 26.0184 44.4422 27.7995 41.1832 27.7995C38.5422 27.7995 36.4224 26.6133 35.3666 24.5443L35.1958 24.2107L38.3008 22.4266L38.5043 22.7563C39.2034 23.8895 39.985 24.3726 41.1189 24.3726C42.0963 24.3726 42.7529 23.9432 42.7529 23.3035C42.7529 22.5947 42.2775 22.3291 40.8084 21.6914L40.0618 21.3738C38.0692 20.5316 36.2233 19.3614 36.2233 16.5271C36.2233 13.98 38.1921 12.2011 41.0114 12.2011C43.1474 12.2011 44.6113 13.021 45.619 14.7806L45.8059 15.1073L42.7974 17.0245L42.5902 16.6566C42.0872 15.7644 41.6135 15.5855 41.0116 15.5855C40.3823 15.5855 39.9769 15.9295 39.9769 16.4633C39.9769 17.0766 40.2755 17.3457 41.5772 17.905L42.3247 18.2235ZM64.3035 18.7454L66.4955 12.6843H70.2578L64.6819 28.0496H63.8463L60.464 20.8537C60.3067 20.524 60.1446 20.1145 60.0048 19.7394C59.8618 20.1152 59.6956 20.5256 59.5381 20.8553L56.0236 28.0496H55.1936L49.5283 12.6843H53.5474L55.7635 18.7454C55.905 19.132 56.05 19.6033 56.1768 20.0406C56.3274 19.5892 56.5085 19.102 56.6977 18.7092L59.6083 12.5578H60.4135L63.3693 18.7098C63.5577 19.1022 63.7395 19.5899 63.8895 20.0412C64.0169 19.6033 64.163 19.132 64.3035 18.7454ZM74.6454 27.6084V12.3704H78.4427V27.6084H74.6454ZM90.8932 22.4887V19.0834H97.9442V25.9128L97.7984 26.0319C96.9918 26.6886 94.8532 27.7997 91.9561 27.7997C87.0687 27.7997 83.6568 24.5883 83.6568 19.9901C83.6568 15.4771 86.9491 12.2012 91.4854 12.2012C93.98 12.2012 95.8085 12.8985 97.0742 14.3333L97.3214 14.6136L94.7331 17.1545L94.4519 16.8673C93.7291 16.1282 92.9802 15.6703 91.4853 15.6703C89.1617 15.6703 87.5387 17.4466 87.5387 19.9901C87.5387 22.6396 89.2718 24.3521 91.956 24.3521C92.8463 24.3521 93.7732 24.2001 94.4041 23.957V22.4889L90.8932 22.4887ZM110.136 22.4887V19.0834H117.187V25.9128L117.042 26.0319C116.234 26.6886 114.096 27.7997 111.2 27.7997C106.313 27.7997 102.9 24.5883 102.9 19.9901C102.9 15.4771 106.193 12.2012 110.728 12.2012C113.224 12.2012 115.052 12.8985 116.317 14.3333L116.565 14.6136L113.978 17.1545L113.696 16.8673C112.973 16.1282 112.223 15.6703 110.728 15.6703C108.405 15.6703 106.782 17.4466 106.782 19.9901C106.782 22.6396 108.516 24.3521 111.2 24.3521C112.09 24.3521 113.017 24.2001 113.647 23.957V22.4889L110.136 22.4887ZM131.101 12.3705H135.07L129.622 22.5104V27.6085H125.805V22.7268L120.001 12.3705H124.236L126.919 17.2289C127.207 17.7575 127.508 18.4561 127.736 19.0233C127.954 18.4607 128.241 17.7683 128.528 17.2336L131.101 12.3705Z"
+                                fill="#F15700"></path>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_4960_156852">
+                                <rect width="135.333" height="40" fill="white" transform="translate(0.400391)"></rect>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+                <div>
+                    <svg viewBox="0 0 32 32" width="30" height="30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12.6097 9.51178C14.1071 9.51178 15.3202 8.33063 15.3202 6.87364C15.3202 5.41747 14.1071 4.23633 12.6097 4.23633C11.1132 4.23633 9.89924 5.41747 9.89924 6.87364C9.89924 8.33063 11.1132 9.51178 12.6097 9.51178ZM6.63407 15.4005C7.41896 12.9149 9.79771 11.1071 12.6091 11.1071C15.422 11.1071 17.7998 12.9149 18.5842 15.4005C18.8042 16.0974 18.9142 16.4459 18.6422 16.8169C18.3702 17.188 17.9279 17.188 17.0434 17.188H8.17479C7.29023 17.188 6.84795 17.188 6.57597 16.8169C6.304 16.4458 6.41402 16.0974 6.63407 15.4005Z"
+                            fill="#43464A"></path>
+                        <path
+                            d="M32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16Z"
+                            fill="#43464A"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M16.36 14.2184C18.4089 14.2184 20.0688 12.6022 20.0688 10.6086C20.0688 8.61615 18.4089 7 16.36 7C14.3123 7 12.6513 8.61615 12.6513 10.6086C12.6513 12.6022 14.3123 14.2184 16.36 14.2184ZM8.18351 22.2763C9.25748 18.8752 12.5123 16.4017 16.3591 16.4017C20.208 16.4017 23.4615 18.8752 24.5349 22.2762C24.8359 23.2298 24.9863 23.7066 24.6142 24.2143C24.242 24.722 23.6369 24.722 22.4265 24.722H10.2917C9.08134 24.722 8.47617 24.722 8.10403 24.2143C7.73188 23.7065 7.88242 23.2297 8.18351 22.2763Z"
+                            fill="white"></path>
+                    </svg>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="w-full  d-flex justify-content-start   px-4 align-items-center  gap-3  mt-1">
+
+                <div class="d-flex justify-content-center align-items-center gap-2 ">
+                    <svg width="18" height="18" viewBox="0 0 16 17" fill="#F15700" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M11.1828 1.84246C13.7623 0.516285 15.0521 -0.146802 15.6759 0.448004C16.2997 1.04281 15.6986 2.36264 14.4965 5.00231L11.0318 12.6101C9.78188 15.3547 9.15692 16.727 8.28744 16.6338C7.41796 16.5407 7.09629 15.0596 6.45294 12.0973C6.29606 11.375 6.21761 11.0138 5.97533 10.7649C5.73305 10.5161 5.37563 10.4285 4.6608 10.2532L4.29783 10.1642C1.65419 9.51589 0.332363 9.19175 0.234059 8.35677C0.135754 7.52179 1.34615 6.89952 3.76695 5.65497L11.1828 1.84246Z"
+                            fill="#F15700"></path>
+                    </svg>
+
+                    <p class="  fw-bold m-0 p-0 m_nav_text ">
+                        You are in pune
+                    </p>
+                </div>
+
+                <div class="d-flex justify-content-center align-items-center    align-items-center gap-1">
+
+                    <p class="m_nav_text fw-light text-center m-0 p-0 ">Setup your precise location</p>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns:svgjs="http://svgjs.com/svgjs" width="20" height="20" x="0" y="0" viewBox="0 0 24 24"
+                        style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+                        <g>
+                            <path
+                                d="M12 16a1 1 0 0 1-.71-.29l-6-6a1 1 0 0 1 1.42-1.42l5.29 5.3 5.29-5.29a1 1 0 0 1 1.41 1.41l-6 6a1 1 0 0 1-.7.29z"
+                                data-name="16" fill="#f15700" data-original="#000000" opacity="1"></path>
+                        </g>
+                    </svg>
+
+
+                </div>
+
+            </div>
+
+
+            <div class="w-full  px-4 mt-1">
+                <div class="w-100 d-flex justify-content-between align-items-center gap-3  p-1 pe-2 mt-2  sarch_bar ">
+                    <button class="btn  disabled  w-100 d-flex justify-content-start "> Search for restaurant and
+                        food</button>
+                    <svg width="20" height="21" viewBox="0 0 20 21" fill="none" aria-hidden="true"
+                        strokeColor="rgba(2, 6, 12, 0.6)" fillColor="rgba(2, 6, 12, 0.6)">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M13.0998 8.84232C13.0998 11.7418 10.7493 14.0922 7.84989 14.0922C4.95046 14.0922 2.6 11.7418 2.6 8.84232C2.6 5.94289 4.95046 3.59243 7.84989 3.59243C10.7493 3.59243 13.0998 5.94289 13.0998 8.84232ZM12.1431 14.1802C10.9686 15.1261 9.47534 15.6922 7.84989 15.6922C4.0668 15.6922 1 12.6254 1 8.84232C1 5.05923 4.0668 1.99243 7.84989 1.99243C11.633 1.99243 14.6998 5.05923 14.6998 8.84232C14.6998 10.4974 14.1128 12.0153 13.1357 13.1993L18.319 17.9606C18.7226 18.3313 18.7359 18.9637 18.3483 19.3511C17.9634 19.7357 17.3365 19.7254 16.9645 19.3282L12.1431 14.1802Z"
+                            fill="rgba(2, 6, 12, 0.6)" fill-opacity="0.92"></path>
+                    </svg>
+                </div>
+            </div>
+
+
+        </nav>
+
+
+
+        <div class="w-100 d-flex align-items-center justify-content-center menu_image pb-5  pt-4  ">
+            <div class="w-50 px-4 d-flex flex-column mt-1 justify-content-center align-items-center bg-red-400">
+                <div class="">
+                    <p class="fs-2 fw-bold">Order Food Online in Pune</p>
+                </div>
+                <div class=" d-flex w-100 p-0 m-0 justify-content-start">
+                    <svg width="75" height="10" viewBox="0 0 78 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 5.25939C27 -0.240624 53.5 -0.2406 77 4.25939" stroke="#F15700" stroke-width="1.5">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+            <div class="w-50 d-flex justify-content-center mt-1  align-items-center">
+                <img class="w-100 "
+                    src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1002,h_600/v1678428358/portal/m/seo_web/dweb_header.png"
+                    alt="">
+            </div>
+        </div>
+
+
+
+        <div class="mt-5  w-full px-4">
+
+            <div class="d-flex justify-content-between align-items-center ">
+                <h4>Top restaurant chains in Pune</h4>
+                <div class="d-flex justify-content-end  align-items-center gap-3 ">
+                    <div class=" rounded-circle bg-secondary p-2 d-flex justify-content-center align-items-center">
+                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" aria-hidden="true"
+                            strokecolor="rgba(2, 6, 12, 0.92)" fillcolor="rgba(2, 6, 12, 0.92)">
+                            <path
+                                d="M7.46869 3.43394C7.79171 3.13249 8.29794 3.14998 8.59939 3.473C8.90083 3.79602 8.88334 4.30225 8.56033 4.60369L5.0839 7.84795C4.94511 7.97748 4.82252 8.0921 4.71414 8.19502L15.0937 8.19502C15.5355 8.19502 15.8937 8.5532 15.8937 8.99502C15.8937 9.43685 15.5355 9.79502 15.0937 9.79502L4.6665 9.79502C4.78625 9.90939 4.92436 10.0386 5.08389 10.1875L8.51791 13.3922C8.84092 13.6937 8.8584 14.1999 8.55695 14.5229C8.2555 14.8459 7.74927 14.8634 7.42626 14.5619L3.95463 11.3221C3.54648 10.9413 3.18179 10.601 2.92647 10.2871C2.64873 9.94573 2.41671 9.53755 2.41672 9.01769C2.41672 8.49783 2.64874 8.08965 2.92648 7.74824C3.18181 7.43439 3.54649 7.09412 3.95465 6.7133L7.46869 3.43394Z"
+                                fill="rgba(2, 6, 12, 0.92)" fill-opacity="0.92"></path>
+                        </svg>
+                    </div>
+                    <div class=" rounded-circle bg-secondary p-2 d-flex justify-content-center align-items-center">
+                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" aria-hidden="true"
+                            strokecolor="rgba(2, 6, 12, 0.92)" fillcolor="rgba(2, 6, 12, 0.92)">
+                            <path
+                                d="M10.5164 3.43418C10.1934 3.13273 9.68714 3.15022 9.3857 3.47324C9.08425 3.79626 9.10174 4.30249 9.42476 4.60394L12.9012 7.84819C13.04 7.97772 13.1626 8.09234 13.2709 8.19527L2.89142 8.19527C2.44959 8.19527 2.09142 8.55344 2.09142 8.99527C2.09142 9.4371 2.44959 9.79527 2.89142 9.79527L13.3186 9.79527C13.1988 9.90964 13.0607 10.0388 12.9012 10.1877L9.46718 13.3924C9.14416 13.6939 9.12668 14.2001 9.42813 14.5231C9.72958 14.8462 10.2358 14.8636 10.5588 14.5622L14.0304 11.3224C14.4386 10.9415 14.8033 10.6012 15.0586 10.2874C15.3364 9.94598 15.5684 9.5378 15.5684 9.01793C15.5684 8.49807 15.3363 8.08989 15.0586 7.74849C14.8033 7.43463 14.4386 7.09437 14.0304 6.71354L10.5164 3.43418Z"
+                                fill="rgba(2, 6, 12, 0.92)" fill-opacity="0.92"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full  px-2 mt-4  gap-2  d-flex  justify-content-between align-items-center  flex-nowrap row">
+
+                <div class="col-6 ">
+                    <div class="rounded-3  card  p-0 m-0  ">
+                        <img class="img_cover card-img " style="height: 25vh; border-radius: 15px; "
+                            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/jmfk6nhytgaifkox7rcf"
+                            alt="">
+                        <div class="card-img-overlay text-white  d-flex justify-content-start  align-items-end">
+                            <p class="card-title p-0 m-0 fs-5 fw-bold"> GET 50 % OFF</p>
+                        </div>
+                    </div>
+                    <div class="px-3 pt-2">
+                        <h6> Pizza Hut</h6>
+                        <div class="d-flex ">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" role="img" aria-hidden="true"
+                                strokecolor="rgba(2, 6, 12, 0.92)" fillcolor="rgba(2, 6, 12, 0.92)">
+                                <circle cx="10" cy="10" r="9" fill="url(#StoreRating20_svg__paint0_linear_32982_71567)">
+                                </circle>
+                                <path
+                                    d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+                                    fill="white"></path>
+                                <defs>
+                                    <linearGradient id="StoreRating20_svg__paint0_linear_32982_71567" x1="10" y1="1"
+                                        x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#21973B"></stop>
+                                        <stop offset="1" stop-color="#128540"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <h6>3.6</h6>
+                        </div>
+                        <p>Pizzas <br> Aurangabad</p>
+                    </div>
+                </div>
+
+                <div class=" col-6">
+                    <div class="rounded-3  card    ">
+                        <img class="img_cover card-img  img_cover   " style="height: 25vh; border-radius: 15px; "
+                            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/ryxi8lonlq5kwlbhcmmj"
+                            alt="">
+                        <div class="card-img-overlay text-white  d-flex justify-content-start  align-items-end">
+                            <p class="card-title p-0 m-0 fs-5 fw-bold"> GET 50 % OFF</p>
+                        </div>
+                    </div>
+                    <div class="px-3 pt-2">
+                        <h6> Pizza Hut</h6>
+                        <div class="d-flex ">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" role="img" aria-hidden="true"
+                                strokecolor="rgba(2, 6, 12, 0.92)" fillcolor="rgba(2, 6, 12, 0.92)">
+                                <circle cx="10" cy="10" r="9" fill="url(#StoreRating20_svg__paint0_linear_32982_71567)">
+                                </circle>
+                                <path
+                                    d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+                                    fill="white"></path>
+                                <defs>
+                                    <linearGradient id="StoreRating20_svg__paint0_linear_32982_71567" x1="10" y1="1"
+                                        x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#21973B"></stop>
+                                        <stop offset="1" stop-color="#128540"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <h6>3.6</h6>
+                        </div>
+                        <p>Pizzas <br> Aurangabad</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+        <hr>
+
+
+
+
+        <div class="mt-5  w-full px-4">
+
+
+            <div class="d-flex  flex-column align-items-start ">
+                <h4>Restaurants with online food delivery in Pune</h4>
+            </div>
+
+            <div class="w-full  px-2 mt-4  gap-2  d-flex  justify-content-between align-items-center  flex-nowrap row">
+
+                <div class="col-6 ">
+                    <div class="rounded-3  card  p-0 m-0  ">
+                        <img class="img_cover card-img " style="height: 25vh; border-radius: 15px; "
+                            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/jmfk6nhytgaifkox7rcf"
+                            alt="">
+                        <div class="card-img-overlay text-white  d-flex justify-content-start  align-items-end">
+                            <p class="card-title p-0 m-0 fs-5 fw-bold"> GET 50 % OFF</p>
+                        </div>
+                    </div>
+                    <div class="px-3 pt-2">
+                        <h6> Pizza Hut</h6>
+                        <div class="d-flex ">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" role="img" aria-hidden="true"
+                                strokecolor="rgba(2, 6, 12, 0.92)" fillcolor="rgba(2, 6, 12, 0.92)">
+                                <circle cx="10" cy="10" r="9" fill="url(#StoreRating20_svg__paint0_linear_32982_71567)">
+                                </circle>
+                                <path
+                                    d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+                                    fill="white"></path>
+                                <defs>
+                                    <linearGradient id="StoreRating20_svg__paint0_linear_32982_71567" x1="10" y1="1"
+                                        x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#21973B"></stop>
+                                        <stop offset="1" stop-color="#128540"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <h6>3.6</h6>
+                        </div>
+                        <p>Pizzas <br> Aurangabad</p>
+                    </div>
+                </div>
+
+                <div class=" col-6">
+                    <div class="rounded-3  card    ">
+                        <img class="img_cover card-img  img_cover   " style="height: 25vh; border-radius: 15px; "
+                            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/8a9029f512e2a7a37a8ed381322cec30"
+                            alt="">
+                        <div class="card-img-overlay text-white  d-flex justify-content-start  align-items-end">
+                            <p class="card-title p-0 m-0 fs-5 fw-bold"> GET 50 % OFF</p>
+                        </div>
+                    </div>
+                    <div class="px-3 pt-2">
+                        <h6> Pizza Hut</h6>
+                        <div class="d-flex ">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" role="img" aria-hidden="true"
+                                strokecolor="rgba(2, 6, 12, 0.92)" fillcolor="rgba(2, 6, 12, 0.92)">
+                                <circle cx="10" cy="10" r="9" fill="url(#StoreRating20_svg__paint0_linear_32982_71567)">
+                                </circle>
+                                <path
+                                    d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+                                    fill="white"></path>
+                                <defs>
+                                    <linearGradient id="StoreRating20_svg__paint0_linear_32982_71567" x1="10" y1="1"
+                                        x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#21973B"></stop>
+                                        <stop offset="1" stop-color="#128540"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <h6>3.6</h6>
+                        </div>
+                        <p>Pizzas <br> Aurangabad</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="w-full  px-2 mt-4  gap-2  d-flex  justify-content-between align-items-center  flex-nowrap row">
+
+                <div class="col-6 ">
+                    <div class="rounded-3  card  p-0 m-0  ">
+                        <img class="img_cover card-img " style="height: 25vh; border-radius: 15px; "
+                            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/jmfk6nhytgaifkox7rcf"
+                            alt="">
+                        <div class="card-img-overlay text-white  d-flex justify-content-start  align-items-end">
+                            <p class="card-title p-0 m-0 fs-5 fw-bold"> GET 50 % OFF</p>
+                        </div>
+                    </div>
+                    <div class="px-3 pt-2">
+                        <h6> Pizza Hut</h6>
+                        <div class="d-flex ">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" role="img" aria-hidden="true"
+                                strokecolor="rgba(2, 6, 12, 0.92)" fillcolor="rgba(2, 6, 12, 0.92)">
+                                <circle cx="10" cy="10" r="9" fill="url(#StoreRating20_svg__paint0_linear_32982_71567)">
+                                </circle>
+                                <path
+                                    d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+                                    fill="white"></path>
+                                <defs>
+                                    <linearGradient id="StoreRating20_svg__paint0_linear_32982_71567" x1="10" y1="1"
+                                        x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#21973B"></stop>
+                                        <stop offset="1" stop-color="#128540"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <h6>3.6</h6>
+                        </div>
+                        <p>Pizzas <br> Aurangabad</p>
+                    </div>
+                </div>
+
+                <div class=" col-6">
+                    <div class="rounded-3  card    ">
+                        <img class="img_cover card-img  img_cover   " style="height: 25vh; border-radius: 15px; "
+                            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/8a9029f512e2a7a37a8ed381322cec30"
+                            alt="">
+                        <div class="card-img-overlay text-white  d-flex justify-content-start  align-items-end">
+                            <p class="card-title p-0 m-0 fs-5 fw-bold"> GET 50 % OFF</p>
+                        </div>
+                    </div>
+                    <div class="px-3 pt-2">
+                        <h6> Pizza Hut</h6>
+                        <div class="d-flex ">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" role="img" aria-hidden="true"
+                                strokecolor="rgba(2, 6, 12, 0.92)" fillcolor="rgba(2, 6, 12, 0.92)">
+                                <circle cx="10" cy="10" r="9" fill="url(#StoreRating20_svg__paint0_linear_32982_71567)">
+                                </circle>
+                                <path
+                                    d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+                                    fill="white"></path>
+                                <defs>
+                                    <linearGradient id="StoreRating20_svg__paint0_linear_32982_71567" x1="10" y1="1"
+                                        x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#21973B"></stop>
+                                        <stop offset="1" stop-color="#128540"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <h6>3.6</h6>
+                        </div>
+                        <p>Pizzas <br> Aurangabad</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="w-full  px-2 mt-4  gap-2  d-flex  justify-content-between align-items-center  flex-nowrap row">
+
+                <div class="col-6 ">
+                    <div class="rounded-3  card  p-0 m-0  ">
+                        <img class="img_cover card-img " style="height: 25vh; border-radius: 15px; "
+                            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/jmfk6nhytgaifkox7rcf"
+                            alt="">
+                        <div class="card-img-overlay text-white  d-flex justify-content-start  align-items-end">
+                            <p class="card-title p-0 m-0 fs-5 fw-bold"> GET 50 % OFF</p>
+                        </div>
+                    </div>
+                    <div class="px-3 pt-2">
+                        <h6> Pizza Hut</h6>
+                        <div class="d-flex ">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" role="img" aria-hidden="true"
+                                strokecolor="rgba(2, 6, 12, 0.92)" fillcolor="rgba(2, 6, 12, 0.92)">
+                                <circle cx="10" cy="10" r="9" fill="url(#StoreRating20_svg__paint0_linear_32982_71567)">
+                                </circle>
+                                <path
+                                    d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+                                    fill="white"></path>
+                                <defs>
+                                    <linearGradient id="StoreRating20_svg__paint0_linear_32982_71567" x1="10" y1="1"
+                                        x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#21973B"></stop>
+                                        <stop offset="1" stop-color="#128540"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <h6>3.6</h6>
+                        </div>
+                        <p>Pizzas <br> Aurangabad</p>
+                    </div>
+                </div>
+
+                <div class=" col-6">
+                    <div class="rounded-3  card    ">
+                        <img class="img_cover card-img  img_cover   " style="height: 25vh; border-radius: 15px; "
+                            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/8a9029f512e2a7a37a8ed381322cec30"
+                            alt="">
+                        <div class="card-img-overlay text-white  d-flex justify-content-start  align-items-end">
+                            <p class="card-title p-0 m-0 fs-5 fw-bold"> GET 50 % OFF</p>
+                        </div>
+                    </div>
+                    <div class="px-3 pt-2">
+                        <h6> Pizza Hut</h6>
+                        <div class="d-flex ">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" role="img" aria-hidden="true"
+                                strokecolor="rgba(2, 6, 12, 0.92)" fillcolor="rgba(2, 6, 12, 0.92)">
+                                <circle cx="10" cy="10" r="9" fill="url(#StoreRating20_svg__paint0_linear_32982_71567)">
+                                </circle>
+                                <path
+                                    d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+                                    fill="white"></path>
+                                <defs>
+                                    <linearGradient id="StoreRating20_svg__paint0_linear_32982_71567" x1="10" y1="1"
+                                        x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#21973B"></stop>
+                                        <stop offset="1" stop-color="#128540"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <h6>3.6</h6>
+                        </div>
+                        <p>Pizzas <br> Aurangabad</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="w-100   mt-3     d-flex  ">
+
+                <div class="w-100  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">show more</h6>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <hr>
+
+
+        <div class="mt-3 w-full px-4">
+
+            <h5 class="py-3">Food culture in Pune </h5>
+
+            <div class=" border border-1   px-4 pt-3 " style="border-radius: 10px;">
+                <br>
+                <p class="fs-3 fw-bold">
+                    Order Food Online in Pune from Swiggy
+                </p>
+                <p class="fw-6 fw-light">
+                    Welcome to the culinary paradise of Pune, where a vibrant food culture awaits to tantalize your
+                    taste buds. Known as the "Oxford of the East," Pune boasts a unique
+                </p>
+                <p class="text-danger ">See more</p>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+
+
+
+        <div class="mt-3 w-full px-4">
+            <h5 class="py-3">Explore localities in and around Pune </h5>
+            <div class=" row flex-nowrap d-flex gap-4  mt-3 mx-4 me-5">
+                <div class="w-50  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Thergaon</h6>
+                </div>
+                <div class="w-50  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Khadakwal</h6>
+                </div>
+            </div>
+            <div class=" row flex-nowrap d-flex gap-4  mt-3 mx-4 me-5">
+                <div class="w-50  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Thergaon</h6>
+                </div>
+                <div class="w-50  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Khadakwal</h6>
+                </div>
+            </div>
+            <div class=" row flex-nowrap d-flex gap-4  mt-3 mx-4 me-5">
+                <div class="w-50  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Thergaon</h6>
+                </div>
+                <div class="w-50  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Khadakwal</h6>
+                </div>
+            </div>
+            <div class=" row flex-nowrap d-flex justify-content-center   mt-3 mx-4 ">
+                <div class="w-100  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Show More</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-3 w-full px-4">
+            <h5 class="py-3">What's Pune eating! People ordering in Pune </h5>
+            <div class=" row flex-nowrap d-flex gap-4  mt-3 mx-4 me-5">
+                <div class="w-50  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Thergaon</h6>
+                </div>
+                <div class="w-50  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Khadakwal</h6>
+                </div>
+            </div>
+            <div class=" row flex-nowrap d-flex gap-4  mt-3 mx-4 me-5">
+                <div class="w-50  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Thergaon</h6>
+                </div>
+                <div class="w-50  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Khadakwal</h6>
+                </div>
+            </div>
+            <div class=" row flex-nowrap d-flex gap-4  mt-3 mx-4 me-5">
+                <div class="w-50  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Thergaon</h6>
+                </div>
+                <div class="w-50  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Khadakwal</h6>
+                </div>
+            </div>
+            <div class=" row flex-nowrap d-flex justify-content-center   mt-3 mx-4 ">
+                <div class="w-100  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Show More</h6>
+                </div>
+            </div>
+        </div>
+        <div class="mt-3 w-full px-4">
+            <h5 class="py-3">Restaurant Chains in Pune </h5>
+            <div class=" row flex-nowrap d-flex gap-4  mt-3 mx-4 me-5">
+                <div class="w-50  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Thergaon</h6>
+                </div>
+                <div class="w-50  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Khadakwal</h6>
+                </div>
+            </div>
+            <div class=" row flex-nowrap d-flex gap-4  mt-3 mx-4 me-5">
+                <div class="w-50  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Thergaon</h6>
+                </div>
+                <div class="w-50  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Khadakwal</h6>
+                </div>
+            </div>
+            <div class=" row flex-nowrap d-flex gap-4  mt-3 mx-4 me-5">
+                <div class="w-50  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Thergaon</h6>
+                </div>
+                <div class="w-50  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Khadakwal</h6>
+                </div>
+            </div>
+            <div class=" row flex-nowrap d-flex justify-content-center   mt-3 mx-4 ">
+                <div class="w-100  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Show More</h6>
+                </div>
+            </div>
+        </div>
+        <div class="mt-3 w-full px-4">
+            <h5 class="py-3">More Food Options Near Me</h5>
+            <div class=" row flex-nowrap d-flex gap-4  mt-3 mx-4 me-5">
+                <div class="w-50  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Thergaon</h6>
+                </div>
+                <div class="w-50  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Khadakwal</h6>
+                </div>
+            </div>
+            <div class=" row flex-nowrap d-flex gap-4  mt-3 mx-4 me-5">
+                <div class="w-50  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Thergaon</h6>
+                </div>
+                <div class="w-50  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Khadakwal</h6>
+                </div>
+            </div>
+            <div class=" row flex-nowrap d-flex gap-4  mt-3 mx-4 me-5">
+                <div class="w-50  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Thergaon</h6>
+                </div>
+                <div class="w-50  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Khadakwal</h6>
+                </div>
+            </div>
+            <div class=" row flex-nowrap d-flex justify-content-center   mt-3 mx-4 ">
+                <div class="w-100  p-3 border border-1 d-flex justify-content-center align-items-center text-center"
+                    style="border-radius: 10px; ">
+                    <h6 class=" mb-0">Show More</h6>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="w-100 mt-5 d-sm-none   d-flex d-flex flex-column align-items-center bg-secondary ">
+        <div class="py-3   p-4 d-flex justify-content-center align-items-center gap-4 w-75 ">
+            <img class="w-50 "
+                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/play_store.png"
+                alt="">
+            <img class="w-50 "
+                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/app_store.png"
+                alt="">
+        </div>
+    </div>
+
+    <div class="w-100 d-flex align-items-start d-sm-none   d-flex flex-column bg-dark text-white fs-6">
+        <div class="d-flex justify-content-start row w-75 px-4 py-2">
+            <div class="col-12">
+                <div class="d-flex gap-2">
+                    <svg width="21" height="32" viewBox="0 0 21 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_b_674_19294)">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M20.3819 14.7977C20.5245 13.9563 20.3574 13.3121 19.9261 12.9756C19.2787 12.4711 18.3021 12.1959 15.9859 12.204C14.2724 12.2082 12.4327 12.2167 11.6469 12.2205C11.5739 12.2082 11.3093 12.1181 11.297 11.7938L11.2683 6.64781C11.2683 6.3236 11.5207 6.05694 11.8385 6.05694C12.1559 6.05694 12.412 6.31936 12.412 6.64358C12.412 6.64358 12.4285 9.43839 12.4327 10.4314C12.4327 10.5257 12.4897 10.7513 12.7011 10.8089C14.085 11.1822 21.0778 10.883 20.9639 9.57764C20.3536 4.16496 15.8884 -0.0164585 10.4829 4.87055e-05C8.78164 0.00385807 7.16965 0.426698 5.745 1.16952C2.33815 2.98744 -0.0755529 6.63977 0.00180748 10.8542C0.0546894 13.8374 1.98811 19.1396 3.16037 19.923C3.70173 20.2845 4.40996 20.1491 7.58886 20.1368C9.0298 20.1325 10.3732 20.1325 11.0324 20.1325C11.1016 20.1448 11.4599 20.2312 11.4637 20.5677L11.484 24.4782C11.484 24.8024 11.232 25.0691 10.9142 25.0691C10.5968 25.0691 10.3402 24.8109 10.3402 24.4824C10.3402 24.4824 10.3647 22.9108 10.3609 22.328C10.3609 22.1926 10.3689 21.9585 9.98235 21.7862C8.71622 21.2119 4.60532 21.5729 4.37737 22.2129C4.29191 22.4592 4.75185 23.4073 5.46418 24.6259C7.83331 28.4425 10.1571 31.4176 10.5318 31.8937C10.5563 31.9141 10.5766 31.9348 10.5968 31.9471C10.9104 31.5611 19.1078 22.2747 20.3819 14.7977Z"
+                                fill="white"></path>
+                        </g>
+                        <defs>
+                            <filter id="filter0_b_674_19294" x="-9.26002" y="-9.26002" width="39.4853" height="50.4673"
+                                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                <feGaussianBlur in="BackgroundImageFix" stdDeviation="4.63001"></feGaussianBlur>
+                                <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_674_19294">
+                                </feComposite>
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_674_19294"
+                                    result="shape"></feBlend>
+                            </filter>
+                        </defs>
+                    </svg>
+                    <div class="m-0 p-0 pt-2">
+                        <h6>Swiggy</h6>
+                    </div>
+                </div>
+
+                <div>
+                    <p>© 2023 Bundl Technologies Pvt. Ltd</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-100 d-flex  row  ps-4 ">
+
+            <div class="d-flex  flex-column col-5    px-4 py-2">
+                <div class="col-12">
+                    <div class="">
+                        <h6>Company</h6>
+                    </div>
+
+                    <ul class="d-flex flex-column list-unstyled gap-1">
+                        <li>
+                            <div>About</div>
+                        </li>
+                        <li>
+                            <div>Careers</div>
+                        </li>
+                        <li>
+                            <div>Team</div>
+                        </li>
+                        <li>
+                            <div>Swiggy One</div>
+                        </li>
+                        <li>
+                            <div>Swiggy Instamart</div>
+                        </li>
+                        <li>
+                            <div>Swiggy Genie</div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-12">
+
+                    <div class="">
+                        <h6>Legal</h6>
+                    </div>
+
+                    <ul class="d-flex flex-column list-unstyled gap-1">
+                        <li>
+                            <div>Terms &amp; Conditions</div>
+                        </li>
+                        <li>
+                            <div>Cookie Policy</div>
+                        </li>
+                        <li>
+                            <div>Privacy Policy</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="d-flex  flex-column col-5   px-4 py-2">
+                <div class="col-12">
+                    <div>
+                        <h6>We deliver to:</h6>
+                    </div>
+
+                    <ul class="d-flex flex-column list-unstyled gap-1">
+                        <li>
+                            <div>Bangalore</div>
+                        </li>
+                        <li>
+                            <div>Gurgaon</div>
+                        </li>
+                        <li>
+                            <div>Hyderabad</div>
+                        </li>
+                        <li>
+                            <div>Delhi</div>
+                        </li>
+                        <li>
+                            <div>Mumbai</div>
+                        </li>
+                        <li>
+                            <div>Pune</div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-12">
+                    <div>
+                        <h6>Contact us</h6>
+                    </div>
+
+                    <ul class="d-flex flex-column list-unstyled gap-1">
+                        <li>
+                            <div>Help &amp; Support</div>
+                        </li>
+                        <li>
+                            <div>Partner with us</div>
+                        </li>
+                        <li>
+                            <div>Ride with us</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

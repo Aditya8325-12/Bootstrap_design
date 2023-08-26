@@ -1,0 +1,29 @@
+.sarch_bar {
+
+    background-color: rgb(240, 240, 245);
+    border-radius:  10px;
+}
+
+.menu_image
+{
+    background: linear-gradient(0deg, rgb(201, 188, 244) 0%, rgb(255, 255, 255) 95.83%);
+    
+    border-radius: 25px;
+}
+
+.scroll_bar{
+
+
+    overflow-x: scroll;
+
+    scrollbar-color: red;
+}
+.img_cover{
+
+    object-fit: cover;
+}
+
+.m_nav_text{
+    font-size: 10px;
+    text-align: center;
+}
